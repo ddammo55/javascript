@@ -1,0 +1,13 @@
+<script>
+    //prompt로 입력받은것은 모두 문자형이다.
+    //그래서 넘버로 형변환을 해줘야한다.
+    // String() -> 문자열로 변환
+    // Number() -> 숫자형으로 변환
+    // Boolean() -> 불린형으로 변환
+
+    const mathScore = Number(prompt("수학 몇점?"));
+    const engScore = Number(prompt("영어 몇점?"));
+    const result = (mathScore + engScore) / 2 ;
+
+    console.log(result)
+</script>
