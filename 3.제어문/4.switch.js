@@ -31,7 +31,7 @@ switch(day){
 }
 console.log(dayName);
 
-let condition = 'o'; //okay, good -> 좋음!, bad -> 나쁨!
+let condition = 'okay'; //okay, good -> 좋음!, bad -> 나쁨!
 let text;
 switch (condition) {
     case 'okay':
@@ -41,7 +41,7 @@ switch (condition) {
     case 'bad':
         text = '나쁨!';
         break;
-    default:
+    default: //아무것도 해당되지 않을때
         text = '해당하는 것 없음';
 }
 console.log(text);

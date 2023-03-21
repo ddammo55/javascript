@@ -1,4 +1,4 @@
-// 우선연산자
+// 연산자 우선순위
 let a = 2;
 let b = 3;
 let result = a + b * 4;
