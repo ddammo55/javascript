@@ -2,7 +2,7 @@
 // 순회하면서 주어진 특정한 일을 수행해야함
 // 5, 순회하는 숫자를 다 출력하고 싶음
 // 5, 순회하는 숫자의 두배값을 다 출력하고 싶음
-// finction iterate(max, action)
+// finction iterate(max, action(콜백함수))
 
 function iterate(max, action) {
     for(let i= 0;  i < max; i++) {
